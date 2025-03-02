@@ -1,0 +1,13 @@
+source: .
+destination: ./_site
+markdown: kramdown
+theme: minima
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Ensure the correct path to your SCSS files
+collections:
+  docs:
+    output: true
+    permalink: /:path/
