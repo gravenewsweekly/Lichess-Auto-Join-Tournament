@@ -3,7 +3,7 @@ document.getElementById("join-now").addEventListener("click", async () => {
     
     if (tournaments.length > 0) {
         const firstTournament = tournaments[0];
-        const success = await joinTournament(firstTournament.id, "YOUR_LICHESS_TOKEN");
+        const success = await joinTournament(firstTournament.id, "lip_V2HSFsiIemujxZmzmqcV");
         
         alert(success ? `Joined ${firstTournament.name}!` : "Failed to join.");
     } else {
