@@ -42,7 +42,7 @@ setInterval(async () => {
 
         // Join after 1 min
         setTimeout(async () => {
-            const success = await joinTournament(firstTournament.id, "YOUR_LICHESS_TOKEN");
+            const success = await joinTournament(firstTournament.id, "lip_V2HSFsiIemujxZmzmqcV");
             if (success) {
                 chrome.notifications.create({
                     type: "basic",
